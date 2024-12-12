@@ -29,7 +29,7 @@ OpenAI 官方 GPT-4o API 是收费的，由 GitHub Models 提供的 GPT-4o API �
 
 详细情况见 [GitHub Models 速率限制](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)
 
-对于个人开发者轻度使用额度足够，俗话说都免费了，还需要啥自行车
+对于个人开发者轻度使用额度足够，俗话说都免费了，还需要啥自行车。
 
 ## 1. 获取 GPT-4o API
 
@@ -57,7 +57,7 @@ OpenAI 官方 GPT-4o API 是收费的，由 GitHub Models 提供的 GPT-4o API �
 
 ## 2. 安装 LiteLLM
 
-**api_base：**https://models.inference.ai.azure.com
+**api_base：** https://models.inference.ai.azure.com
 
 ![](https://raw.githubusercontent.com/HogskinKitty/assets-repository/master/culpro/litellm-7.png)
 
@@ -80,7 +80,7 @@ model_list:
 >
 > 其他模型请参考 [LiteLLM 官方文档](https://docs.litellm.ai/docs/providers/)
 
-创建 docker-compose.yml文件，内容如下：
+创建 docker-compose.yml 文件，内容如下：
 
 ```yaml
 version: '3.8'

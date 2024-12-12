@@ -149,7 +149,7 @@ VSCode 插件市场搜索 Cline 安装
 
 **如有问题**
 
-- 请参考官方说明文档：[LittleLLM 文档](https://docs.litellm.ai/docs/)
+- 请参考官方说明文档：[LiteLLM 文档](https://docs.litellm.ai/docs/)
 
 - [提交 Issue](https://github.com/HogskinKitty/litellm-config/issues)
 

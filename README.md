@@ -1,4 +1,4 @@
-# Cline + GPT-4o API + LiteLLM 实现 Cursor 平替
+# Cline + GPT-4o API + LiteLLM 实现 Cursor 免费平替
 
 ## 简介
 

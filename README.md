@@ -44,7 +44,7 @@ OpenAI 官方 GPT-4o API 是收费的，由 GitHub Models 提供的 GPT-4o API �
 
 ![](https://raw.githubusercontent.com/HogskinKitty/assets-repository/master/culpro/litellm-3.png)
 
-- 自定义一个名称，点击 Generate **token**
+- 自定义一个名称，选择过期时间为永不过期即 No expiration，点击 Generate **token**
 
 ![](https://raw.githubusercontent.com/HogskinKitty/assets-repository/master/culpro/litellm-4.png)
 

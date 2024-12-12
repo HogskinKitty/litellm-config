@@ -1,6 +1,6 @@
 # Cline + GPT-4o API + LiteLLM 实现 Cursor 免费平替
 
-## 简介
+## 1. 简介
 
 **Cline**
 
@@ -21,17 +21,16 @@ LiteLLM 是 BerriAI 开发的开源 Python 库，能简化大语言模型 API �
 **GPT-4o API**
 
 OpenAI 官方 GPT-4o API 是收费的，由 GitHub Models 提供的 GPT-4o API 是免费使用，但有额度限制。
+详细情况见 [GitHub Models 速率限制](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)
 
 简单总结就是：
 
 - 速率限制层高-如：GPT-4o 每天可以使用 50 次 API
 - 速率限制层低-如：GPT-4o 每天可以使用 150 次 API
 
-详细情况见 [GitHub Models 速率限制](https://docs.github.com/en/github-models/prototyping-with-ai-models#rate-limits)
+对于个人开发者每天轻中度使用额度足够，俗话说都免费了，还需要啥自行车。
 
-对于个人开发者轻度使用额度足够，俗话说都免费了，还需要啥自行车。
-
-## 1. 获取 GPT-4o API
+## 2. 获取 GPT-4o API
 
 - 进入 [GitHub Models](https://github.com/marketplace/models/catalog)，选择模型 OpenAI GPT-4o
 
@@ -55,7 +54,7 @@ OpenAI 官方 GPT-4o API 是收费的，由 GitHub Models 提供的 GPT-4o API �
 
 ![](https://raw.githubusercontent.com/HogskinKitty/assets-repository/master/culpro/litellm-6.png)
 
-## 2. 安装 LiteLLM
+## 3. 安装 LiteLLM
 
 **api_base：** https://models.inference.ai.azure.com
 
@@ -131,11 +130,11 @@ model_list:
 litellm --config ./config.yaml
 ```
 
-## 3. 安装 Cline 插件
+## 4. 安装 Cline 插件
 
-**VS Code 安装 Cline 插件**
+**VSCode 安装 Cline 插件**
 
-VS Code 插件市场搜索 Cline 安装
+VSCode 插件市场搜索 Cline 安装
 
 **配置大模型 API**
 

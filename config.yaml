@@ -1,0 +1,11 @@
+model_list:
+  - model_name: gpt-4o
+    litellm_params:
+      model: github/gpt-4o
+      api_base: https://models.inference.ai.azure.com
+      api_key: "your_api_key"
+#  - model_name: gpt-4o-mini
+#    litellm_params:
+#      model: github/gpt-4o-mini
+#      api_base: https://models.inference.ai.azure.com
+#      api_key: "your_api_key"
